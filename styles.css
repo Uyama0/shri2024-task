@@ -288,7 +288,7 @@ body {
     gap: 1.25rem;
     height: auto;
     margin-bottom: 0.3125rem;
-    background-image: url(assets/bg@2x.png);
+    background-image: url("./assets/base64.png");
   }
 }
 
