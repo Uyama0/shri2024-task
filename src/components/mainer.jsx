@@ -2,7 +2,7 @@ import React from "react";
 
 import Event from "./event";
 
-function Main() {
+function Mainer() {
   const ref = React.useRef();
   const initedRef = React.useRef(false);
   const [activeTab, setActiveTab] = React.useState("");
@@ -343,4 +343,4 @@ for (let i = 0; i < 6; ++i) {
 }
 const TABS_KEYS = Object.keys(TABS);
 
-export default Main;
+export default Mainer;
