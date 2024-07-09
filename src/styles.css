@@ -29,6 +29,13 @@ body {
   clip: rect(1px 1px 1px 1px);
 }
 
+.app {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  height: 100vh;
+}
+
 .header {
   position: relative;
   display: flex;
@@ -163,7 +170,6 @@ body {
 
 .main {
   display: grid;
-  flex: 0 0 auto;
   grid-template-columns: 50% 50%;
   gap: 1.625rem;
   padding: 0 2.5rem;
